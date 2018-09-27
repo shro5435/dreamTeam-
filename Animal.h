@@ -21,6 +21,7 @@ class Turtle : public Animal {
 public:
 	Turtle():
 	Animal("turtle turtle turtle")
+<<<<<<< HEAD
 	int GetPower() { return 7; };
 
 	{}
@@ -31,6 +32,12 @@ class Pig(): public Animal
 	int GetPower(){return 10;}; 
 	{}
 
+=======
+	{}
+
+
+	int GetPower() { return 7; };
+>>>>>>> 4f8ab0c5c0d79bb8e00fcbf7015454eff95bdf2b
 
 };
 
