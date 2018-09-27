@@ -21,10 +21,16 @@ class Turtle : public Animal {
 public:
 	Turtle():
 	Animal("turtle turtle turtle")
+	int GetPower() { return 7; };
+
 	{}
 
+class Pig(): public Animal 
+	Animal ("Oink Oink")
+	{}
+	int GetPower(){return 10;}; 
+	{}
 
-	int GetPower() { return 7; };
 
 };
 

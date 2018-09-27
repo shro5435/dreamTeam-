@@ -12,4 +12,8 @@ void Animal::Fight(Animal &opponent) {
 	} else {
 		std::cout << opponent.MakeSound() << std::endl;
 	}
-}
+
+Animal Pig; 
+Pig->MakeSound(); //should return oink oink 
+pig->Fight(Turtle()); 
+Pig->GetPower(); //should return 10

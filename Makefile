@@ -14,4 +14,3 @@ animal: Animal.o main.cpp
 
 Animal.o: Animal.cpp
 	$(CXX) $(CXXFLAGS) -c Animal.cpp
-
